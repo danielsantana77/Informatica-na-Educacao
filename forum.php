@@ -27,24 +27,6 @@
     <!-- Custom styles for this template -->
     <link href="css/freelancer.min.css" rel="stylesheet">
 
-    <script type="text/javascript">
-      
-      function recuperaTexto() {
-
-        var nome = document.getElementById('textoNome').value;
-
-        var comentario = document.getElementByID('textoArea').value;
-        alert('nome');
-
-        document.getElementByID('resultado').value = document.getElementByID('textoNome').value;
-      }
-
-      function criarPostagem(nome, comentario) {
-
-      }
-    
-    </script>
-
   </head>
 
   <body id="page-top">
@@ -53,11 +35,6 @@
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="index.html">I + DisTismo</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        
       </div>
     </nav>
 
@@ -69,28 +46,36 @@
         <h2 class="text-uppercase text-secondary mb-0">FÓRUM</h2>
         <br />
         <br />
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum libero nisi minus voluptate? Culpa neque minus minima numquam, vel nihil, debitis ratione libero esse laboriosam voluptates placeat ad qui?</p>
         <div class="row">
             <div class="col-lg-12 mx-auto">
               <h3>Deixe sua dúvida aqui: </h3>
-              <form>
-                <div class="form-group col-lg-6">
-                  <label>Nome:</label>
-                  <input type="text" class="form-control" id="textoNome">
-                </div>
+              <p>Cadastre-se ou faça seu login</p>
+              <div id="disqus_thread">
+<script>
 
-                <div class="form-group col-lg-6">
-                  <textarea name="pergunta" rows="10" cols="63" id="textoArea">Deixe seu comentário...</textarea>
-                </div>
-
-                <button type="button" class="btn btn-primary" onclick="recuperaTexto()">Cadastrar</button>
-
-              </form>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://http-localhost-forum-php.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
             </div>
         </div>
 
-        <div class="well">
-          Resultado: <input id="resultado" type="text" class="form-control" readonly/>
-        </div>
 
       </div>
     </section>
@@ -135,6 +120,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script id="dsq-count-scr" src="//http-localhost-forum-php.disqus.com/count.js" async></script>
 
 
   </body>
