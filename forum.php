@@ -57,7 +57,7 @@
         <br />
         <br />
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum libero nisi minus voluptate? Culpa neque minus minima numquam, vel nihil, debitis ratione libero esse laboriosam voluptates placeat ad qui?</p>
+        <p>Tire dúvidas, troque ideias, venha interagir com a nossa comunidade e debater sobre o autismo e dislexia.</p>
         <div class="row">
             <div class="col-lg-12 mx-auto">
               <h3>Deixe sua dúvida aqui: </h3>
