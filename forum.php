@@ -47,7 +47,7 @@
         <br />
         <br />
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolorum libero nisi minus voluptate? Culpa neque minus minima numquam, vel nihil, debitis ratione libero esse laboriosam voluptates placeat ad qui?</p>
+        <p>Aqui os pais e familiares podem dar depoimentos pessoais e discutir sobre a Dislexia e o Autismo</p>
         <div class="row">
             <div class="col-lg-12 mx-auto">
               <h3>Deixe sua dúvida aqui: </h3>
