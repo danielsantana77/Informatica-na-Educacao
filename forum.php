@@ -47,7 +47,7 @@
         <br />
         <br />
         
-        <p>Aqui os pais e familiares podem dar depoimentos pessoais e discutir sobre a Dislexia e o Autismo</p>
+        <p>Aqui os pais e familiares podem dar depoimentos pessoais e discutir sobre a Dislexia e o Autismo.</p>
         <div class="row">
             <div class="col-lg-12 mx-auto">
               <h3>Deixe sua dúvida aqui: </h3>
