@@ -7,11 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-<<<<<<< HEAD
     <title>Fórum</title>
-=======
-    <title>Fórum</title>
->>>>>>> ac2bb783317940473e6fe9e1119b3c35dd7397f7
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,6 +31,20 @@
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="index.html">I + DiTismo</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="dislexia.html">Dislexia</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="autismo.html">Autismo</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -47,7 +57,7 @@
         <br />
         <br />
         
-        <p>Aqui os pais e familiares podem dar depoimentos pessoais e discutir sobre a Dislexia e o Autismo.</p>
+        <p>Tire dúvidas, troque ideias, venha interagir com a nossa comunidade e debater sobre o autismo e dislexia.</p>
         <div class="row">
             <div class="col-lg-12 mx-auto">
               <h3>Deixe sua dúvida aqui: </h3>
@@ -87,9 +97,8 @@ s.setAttribute('data-timestamp', +new Date());
       <div class="container">
         <div class="row">
           <div class="text-center col-lg-8 mx-auto">
-            <h4 class="mb-4">I + DisTismo</h4>
-            <p class="lead mb-0">Alguma coisa escrita aqui
-              <a href="#">I + DisTismo</a>.</p>
+          <h4 class="mb-4"><a href="#">I + DiTismo</a></h4>
+          <p class="lead mb-0">Você mais informado sobre dislexia e autismo.</p>
           </div>
         </div>
       </div>
