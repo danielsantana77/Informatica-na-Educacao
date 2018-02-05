@@ -88,8 +88,7 @@ s.setAttribute('data-timestamp', +new Date());
         <div class="row">
           <div class="text-center col-lg-8 mx-auto">
             <h4 class="mb-4">I + DisTismo</h4>
-            <p class="lead mb-0">Alguma coisa escrita aqui
-              <a href="#">I + DisTismo</a>.</p>
+            <p class="lead mb-0">Você mais informado sobre Dislexia e Autismo</p>
           </div>
         </div>
       </div>
